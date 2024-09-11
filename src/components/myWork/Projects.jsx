@@ -20,14 +20,15 @@ const Projects = () => {
       linkGitHubTitle: "git-hub link",
     },
     {
-      img: "/drum.png",
+      img: "/expense_tracker.png",
       title:
-        "simple javascript app when you push your keyboard it  makes sounds",
-      linkView: "https://javascript-drum-kit-nu.vercel.app/",
-      linkGitHub: "https://github.com/IbrohimJumayev/Javascript-drum-kit",
+        "made with firebase auth and firebase database , you can track your income and expenses",
+      linkView: "https://expense-tracker-alpha-green.vercel.app/",
+      linkGitHub: "https://github.com/IbrohimJumayev/expense-tracker",
       linkViewTitle: "Click to see the project",
       linkGitHubTitle: "git-hub link",
     },
+
     {
       img: "/pomodoro.png",
       title:
@@ -57,6 +58,32 @@ const Projects = () => {
       linkGitHubTitle: "git-hub link",
     },
     {
+      img: "/type.png",
+      title: "Type to search for states and cities. Made using Regex",
+      linkView: "https://type-ahead.vercel.app/",
+      linkGitHub: "https://github.com/IbrohimJumayev/typeAhead",
+      linkViewTitle: "Click to see the project",
+      linkGitHubTitle: "git-hub link",
+    },
+    {
+      img: "/sample_portfolio.png",
+      title: "Sample of portfolio",
+      linkView: "https://test-task-sigma-khaki.vercel.app/",
+      linkGitHub: "https://github.com/IbrohimJumayev/test-task",
+      linkViewTitle: "Click to see the project",
+      linkGitHubTitle: "git-hub link",
+    },
+
+    {
+      img: "/drum.png",
+      title:
+        "simple javascript app when you push your keyboard it  makes sounds",
+      linkView: "https://javascript-drum-kit-nu.vercel.app/",
+      linkGitHub: "https://github.com/IbrohimJumayev/Javascript-drum-kit",
+      linkViewTitle: "Click to see the project",
+      linkGitHubTitle: "git-hub link",
+    },
+    {
       img: "/login.png",
       title:
         "simple login application if you type true login and password it will redirect you to the admin panel",
@@ -69,8 +96,8 @@ const Projects = () => {
 
   return (
     <div id="projects">
-      <p className="font-bold text-2xl text-center mt-5 mb-10">Projects</p>
-      <ul className="grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <p className="font-bold text-2xl text-center mt-5 mb-5">Projects</p>
+      <ul className="grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-10">
         {projects.map((project, index) => (
           <motion.li
             animate={{ y: 20 }}

@@ -36,7 +36,7 @@ const Skills = () => {
         <button>
           <p class="box">Tailwind</p>
         </button>
-      
+
         <button>
           <p class="box">Redux</p>
         </button>
@@ -45,6 +45,9 @@ const Skills = () => {
         </button>
         <button>
           <p class="box">Git/GitHub</p>
+        </button>
+        <button>
+          <p class="box">Firebase</p>
         </button>
       </motion.div>
     </>
